@@ -17,9 +17,9 @@ describe ThreeAndFive do
   end
 
   it "should divide correctly" do
-    expect(@even_fib.divisible_by(20,4)).to eq(true)
-    expect(@even_fib.divisible_by(27,3)).to eq(true)
-    expect(@even_fib.divisible_by(13,2)).not_to eq(true)
+    expect(@three_and_five.divisible_by(10,2)).to eq(true)
+    expect(@three_and_five.divisible_by(9,3)).to eq(true)
+    expect(@three_and_five.divisible_by(10,4)).not_to eq(true)
   end
 
 end
